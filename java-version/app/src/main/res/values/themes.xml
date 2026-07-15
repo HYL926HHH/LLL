@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SuiliTime" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#E8915B</item>
+        <item name="colorPrimaryDark">#D4725E</item>
+        <item name="colorAccent">#8DB580</item>
+        <item name="android:windowBackground">#FDF8F0</item>
+    </style>
+</resources>

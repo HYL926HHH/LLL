@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF8F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_month_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2026-03"
+            android:textSize="18sp"
+            android:textColor="#4A3728"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 收入/支出/结余卡片 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/card_bg"
+                android:padding="16dp"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="收入" android:textSize="12sp" android:textColor="#9B8578"/>
+                <TextView android:id="@+id/tv_total_income" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="¥0.00" android:textSize="20sp"
+                    android:textColor="#8DB580" android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/card_bg"
+                android:padding="16dp"
+                android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="支出" android:textSize="12sp" android:textColor="#9B8578"/>
+                <TextView android:id="@+id/tv_total_expense" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="¥0.00" android:textSize="20sp"
+                    android:textColor="#D4725E" android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="结余" android:textSize="12sp" android:textColor="#9B8578"/>
+            <TextView android:id="@+id/tv_balance" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="¥0.00" android:textSize="24sp"
+                android:textColor="#4A3728" android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

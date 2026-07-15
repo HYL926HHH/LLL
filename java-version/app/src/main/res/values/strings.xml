@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">岁里时光</string>
+    <color name="cream">#FDF8F0</color>
+    <color name="warm_orange">#E8915B</color>
+    <color name="sage_green">#8DB580</color>
+    <color name="terracotta">#D4725E</color>
+    <color name="text_primary">#4A3728</color>
+    <color name="text_secondary">#9B8578</color>
+    <color name="border">#F0E6D8</color>
+</resources>
